@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    margin-top: -5px;
+}
+.navbar-container{
+    display: flex;
+}
+.navbar-container img{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.list{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 8px;
+
+}
+.list-item{
+    display: flex;
+    padding: 40px;
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(99, 98, 98);
+}
+.hero-container {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 40px;
+    text-align: left
+}
+.hero-heading{
+    font-family: roboto;
+    font-size: 60px;
+    font-weight: 700;
+    margin-right: 1000px;
+}
+.button-learn{
+    margin-left: px;
+    margin-top: 100px;
+    background-color:#3b855b;
+    border-color: transparent;
+    border-radius: 10px;
+    height: 50px;
+    width: 130px;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(220, 220, 220);
+}
+.hero-description{
+    position: absolute;
+    margin-top: 40px;
+    font-family: roboto;
+
+}
+.hero-container-right{
+   display: block;
+   margin-top: 200px;
+   margin-bottom:-230px;
+
+}
+.image01{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 50px;
+}
+.image02{
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 10px;
+
+}
+.image03{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 400px;
+}

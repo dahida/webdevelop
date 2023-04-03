@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-container{
+    display: flex;
+}
+.navbar-container img{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 100px;
+    height: 50px;
+}
+
+.list{
+    position: absolute;
+    display: flex;
+    margin-top: 45px;
+    margin-left: 500px;
+    font-family: Orbitron;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(60, 59, 59);
+}
+.list-item:hover{
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 25px;
+    color: black;
+    border-bottom: 3px solid black;
+   
+}
+.list-item{
+    margin: 30px;
+    display: flex;
+}
+.button-group{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 80%;
+    
+}
+.search-icon{
+    position: absolute;
+    height: 30px;
+}
+.nav-button{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -5px;
+    height: 45px;
+    width: 150px;
+    background: transparent;
+    border-radius: 10px;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(144, 140, 136);
+}
+.hero-container{
+    display: flex;
+}
+.globe+div img{
+    position: absolute;
+    height: 80%;
+    width: auto;
+    margin-left: 100px;
+    margin-top: 170px;
+}
+.square{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 220px;
+    padding:40px;
+    
+}
+.star{
+    position: absolute;
+    margin-top: 750px;
+    margin-left: 750px;
+}
+.star+.star{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 1400px;
+}
+
+.globe{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 870px;
+}
+.hero-container-right{
+    margin-left: 680px;
+    margin-top: 300px;
+    text-align: center;
+    margin-right: 100px;
+   
+
+}
+.hero-heading{
+    font-family: Orbitron;
+    font-weight: 800;
+    font-size: 60px;
+
+}
+.hero-description{
+   font-family: poppins;
+   font-weight: 500;
+   font-size: 15px;
+   margin-left: 70px;
+   margin-right: 70px;
+   margin-top: 50px;
+   color: rgb(115, 118, 119);
+}
+.button-email{
+    margin-top: 90px;
+   font-family: Orbitron;
+   font-weight: 600;
+   font-size: 20px;
+   height: 40px;
+   width: 200px;
+   border-radius: 10px;
+   background-color:transparent;
+}
+.button-join{
+    margin-top: 90px;
+    font-family: Orbitron;
+    font-weight: 400;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: black;
+    color: azure;
+}
+.contact-heading{
+    margin-top: 140px;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(98, 97, 97);
+}
+.icons{
+   margin-top: 10px;
+}
+.icons img{
+    padding: 10px;
+}
