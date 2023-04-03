@@ -77,7 +77,7 @@
 }
 .banner-container button{
     margin-top: 90px;
-    margin-left: 190px;
+    margin-left: 230px;
     font-family: Poppins;
     font-weight: 400;
     font-size: 20px;
@@ -92,5 +92,5 @@
 .banner-container img{
     margin-top: 40px;
     align-self: flex-end;
-    width: 1037px;
+    width: 1036.5px;
 }
