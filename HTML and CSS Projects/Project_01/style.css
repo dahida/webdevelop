@@ -1,0 +1,97 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.navbar-container{
+    display: flex;
+    align-items:center;
+   
+}
+.navbar-container img{
+    margin-top: 50px;
+    margin-left: 190px;
+}
+.grow-list{
+    margin-top: 55px;
+}
+.list{
+    margin-left: 20px;
+}
+.list-item{
+    display: inline-flex;
+    margin: 17px;
+    height:15px;
+    justify-content: space-around;
+   font-family: Poppins;
+   font-weight: 500;
+   color: rgb(189, 183, 200);
+}
+.list-item:hover{
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(31, 30, 30);
+}
+
+.nav-button{
+    margin-top: 50px;
+    margin-left: 440px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: medium;
+    color: #ffffff;
+    background-color: rgb(69, 66, 154);
+    border-radius: 8px;
+    border-color: rgb(12, 12, 17);
+    border-width: 1px;
+    width: 150px;
+    height: 50px;
+        
+}
+.banner-container{
+    display: flex;
+}
+.heading-text{
+    line-height: 90px;
+    margin-top: 140px;
+    margin-left: 190px;
+    font-family:Poppins;
+    font-weight: 500;
+    font-size: 75px;
+    color:rgb(77, 60, 121);
+    
+}
+.heading-text span{
+    color:rgb(118, 119, 218);
+}
+.description{
+    margin-top: 25px;
+    margin-left: 190px;
+    padding-right: 85px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(108, 107, 116);
+    line-height: 25px;
+    
+}
+.banner-container button{
+    margin-top: 90px;
+    margin-left: 190px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: medium;
+    color: #ffffff;
+    background-color:rgb(69, 66, 154);
+    border-radius: 8px;
+    border-color: rgb(12, 12, 17);
+    border-width: 1px;
+    width: 190px;
+    height: 50px;
+}
+.banner-container img{
+    align-self: flex-end;
+    margin-top: 50px;
+}
