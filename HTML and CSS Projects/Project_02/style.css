@@ -13,11 +13,11 @@
     background-size: contain;
     background-position: center;
     display: inline-flex;
-    width: 1614px;
+    width: 1920.4px;
     height: 80px;
 }
 .navbar img{
-    margin-left: 390px;
+    margin-left: 150px;
     margin-top: 25px;
     height: 30px;
     width:auto;
@@ -25,14 +25,14 @@
 
 .grow-list{
     font-family: poppins;
-    margin-left: 50px;
+    margin-left: 80px;
     margin-top: 30px;
 }
 .list{
     display: flex;
 }
 .list-item{
-    margin:10px;
+    margin-left: 80px;
     display:inline;
     color:aliceblue;
 }
@@ -40,34 +40,33 @@
 .button-small{
     font-family: poppins;
    margin-top: 25px;
-   margin-left: 250px;
+   margin-left: 500px;
    height: 40px;
-   width: 100px;
+   width: 180px;
     background-color: rgb(191,6,193);
     color: azure;
     border-radius: 6px;
     border-color: transparent;
 }
 .hero{
-    
+    align-items: center;
+    background-position: center;
     background-image: url(./assets/bg.png);
     background-attachment:local;
     background-size:contain;
-    background-position:center;
-    align-items: center;
-    height: 685.9px;
-    width: 1614.7px;
+    height: 849.4px;
+    width: 1920px;
     margin-top:0px;
 
 }
 .hero-heading{
    position:absolute;
-   margin-top: 126px;
-   margin-left: 473px;
-   margin-right: 456px;
+   margin-top: 135px;
+   margin-left: 300px;
+   margin-right: 300px;
    font-family: Montserrat;
    font-weight: 700;
-   font-size: 59.7px;
+   font-size: 90px;
    text-align: center;
    color: #ffffff;
 }
@@ -75,23 +74,26 @@
 .hero-description{
     position: absolute;
     justify-content: center;
-    margin-top: 272px;
-    margin-left: 567px;
+    margin-top: 360px;
+    margin-left: 590px;
+    word-spacing: 6px;
+    letter-spacing: 1px;
     font-family: poppins;
-    font-weight: 400;
-    font-size: 22.8px;
+    align-content: center;
+    font-weight: 300;
+    font-size: 30px;
     color: #ffffff;
 
 }
 
 .button-large{
-    margin-top: 343px;
-    margin-left: 685px;
+    margin-top: 500px;
+    margin-left: 750px;
     font-family: poppins;
     font-weight: 500;
     font-size: 20px;
     height: 54.6px;
-   width: 265px;
+    width: 300px;
     background-color: rgb(191,6,193);
     color: azure;
     border-radius: 6px;
