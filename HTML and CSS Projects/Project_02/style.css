@@ -49,12 +49,12 @@
     border-color: transparent;
 }
 .hero{
-    align-items: center;
+    align-items: normal;
     background-position: center;
     background-image: url(./assets/bg.png);
     background-attachment:local;
     background-size:contain;
-    height: 849.4px;
+    height: 849px;
     width: 1920px;
     margin-top:0px;
 
