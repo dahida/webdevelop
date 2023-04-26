@@ -5,14 +5,14 @@
 }
 
 body{
-    max-width: 1440px;
+    max-width: 1800px;
     background-color: #f0f4f5;
     margin: auto;/*auto*/
     overflow: hidden;
 }
 
 nav{
-    height: 15vh;
+    height: 20vh;
     display: flex;
     align-items: center;
     justify-content:space-between;
@@ -20,15 +20,17 @@ nav{
 }
 nav ul{
     display: flex;
+    margin-right: -120px;
     align-items: center;
 }
 nav ul li{
     list-style: none;
-    margin-right: 50px;
+    margin-right: 130px;
     font-weight: 600;
+    font-size: 20px;
 }
-nav ul li:first-child{
-    color: green;
+nav ul li:hover{
+    color: #41d399;
 }
 /*hero section*/
 main{
@@ -42,40 +44,48 @@ main section{
 }
 .leftsection{
     margin-left: 5%;
+    margin-right: 0%;
+    margin-top: -10%;
     position: relative;
 }
 .topangle{
-    width: 25px;
+    width: 30px;
+    
 }
 .leftsection h1{
-    font-size: 70px;
+    margin-right: 10%;
+    font-size: 80px;
 }
 .leftsection p{
     color: #808080;
     font-size: 18px;
-    margin: 20px 0;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-right: 150px;
+    font-size: 20px;
 }
 .bottomangle{
-    width: 25px;
+    width: 30px;
     position:absolute;
-    right: 25px;
+    right: 150px;
+    bottom: 40px;
 }
 .stethoscope{
     position: absolute;
     width: 90%;
-    top: -60px;
-    right: -25px;
+    top: -55px;
+    right: -140px;
     z-index: -1;
 }
-mouse{
+.mouse{
     position: absolute;
-    right: -30px;
-    bottom: 0;
-    width: 30px;
+    right: 70px;
+    bottom: -20px;
+    width: 50px;
 }
 .leftsection button{
     color: white;
-    background-color: green;
+    background-color: #41d399;
     padding: 15px 40px;
     border: none;
     border-radius: 40px;
@@ -87,15 +97,18 @@ mouse{
 }
 .greenbox{
     width: 35%;
-    bottom: 30px;
+    bottom: 0px;
+    margin-right: 20px;
 }
 .yellowbox{
     width: 30%;
     bottom: 50px;
+    margin-right: -5px;
 }
 .doctor{
     position: absolute;
     right: 0;
     bottom: 0;
     height: 90%;
+    margin-right: 20px;
 }
