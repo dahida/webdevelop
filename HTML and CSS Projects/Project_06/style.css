@@ -6,23 +6,23 @@
 }
 .navbar-container img{
     position: absolute;
-    
     width: auto;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 250px;
 }
 .grow-list{
     position: absolute;
     display: flex;
-    margin-left: 640px;
-    margin-top: 30px;
+    margin-left:800px;
+    margin-top: 70px;
 }
 .list{
     display: flex;
 }
 .list-item{
      display: flex;
-     padding: 20px;
+     margin-left: 60px;
+     padding: 0px;
      font-family: Montserrat;
      font-size: 15px;
      font-weight: 500;
@@ -30,10 +30,10 @@
 }
 .nav-button{
     position: absolute;
-    margin-left: 1170px;
-    margin-top: 30px;
+    margin-left: 1470px;
+    margin-top: 50px;
     height: 50px;
-    width: 150px;
+    width: 180px;
     border-radius: 10px;
     border-color: yellow;
     border-width: 1px;
@@ -43,28 +43,32 @@
 .heading-text{
     position: absolute;
     margin-left: 250px;
-    margin-right: 800px;
-    margin-top: 130px;
+    margin-right: 1000px;
+    margin-top: 150px;
     font-family: Montserrat;
     font-weight: 800;
-    font-size: 60px;
+    font-size: 70px;
     color: #ffffff;
-    line-height: 80px;
+    line-height: 90px;
+    word-spacing: 20px;
 }
 .description{
     position: fixed;
     margin-top: 150px;
-    margin-left: 850px;
-    margin-right: 380px;
+    margin-left: 1100px;
+    margin-right: 300px;
     font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
     text-align: left;
     color: #abaaaa;
     line-height: 30px;
+    word-spacing: 5px;
 }
 .banner-container img{
     position: absolute;
-    height: 450px;
-    margin-top: 315px;
+    width: 1400px;
+    margin-top: 345px;
     margin-left: 250px;
     
 }
